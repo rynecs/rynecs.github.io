@@ -158,6 +158,18 @@
       border: 1px solid var(--border-color);
     }
 
+    .gallery figure {
+      margin: 0;
+    }
+
+    .gallery figcaption {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      text-align: center;
+      margin-top: 0.4rem;
+      font-family: 'Lora', serif;
+    }
+
     /* ====================================================================
        CV / DOWNLOAD BUTTON
        ====================================================================
@@ -302,9 +314,20 @@
   <section class="section" id="gallery">
     <h2>Gallery</h2>
     <div class="gallery">
-      <img src="physcon.jpeg" alt="Presenting my poster at the 2025 Physics and Astronomy Congress">
-      <img src="circus.jpeg" alt="With some friends, volunteering for our department's Circus of Physics event">
-      <img src="pie.jpeg" alt="Getting pied in the face at a Society of Physics Students fundraising event">
+      <figure>
+       <img src="physcon.jpeg" alt="Presenting my poster at the 2025 Physics and Astronomy Congress">
+       <figcaption>Presenting my poster at the 2025 Physics and Astronomy Congress</figcaption>
+      </figure>
+
+      <figure>
+       <img src="circus.jpeg" alt="With some friends, volunteering for our department's Circus of Physics event">
+       <figcaption>With some friends, volunteering for our department's Circus of Physics event</figcaption>
+      </figure>
+
+      <figure>
+       <img src="pie.jpeg" alt="Getting pied in the face at a Society of Physics Students fundraising event">
+       <figcaption>Getting pied in the face at a Society of Physics Students fundraising event</figcaption>
+      </figure>
       <!-- Add more <img> lines here as needed -->
     </div>
   </section>
