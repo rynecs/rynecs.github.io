@@ -9,11 +9,6 @@
     ====================================================================
     GOOGLE FONTS
     ====================================================================
-    These two lines load fonts from Google Fonts.
-    - "Playfair Display" = elegant serif font, used for headings
-    - "Lora" = readable serif font, used for body text
-    If you want different fonts, go to fonts.google.com, pick fonts,
-    and they'll give you a similar <link> tag to swap in here.
   -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,15 +18,10 @@
     /* ====================================================================
        COLOR VARIABLES
        ====================================================================
-       This is the EASIEST place to change your whole color scheme.
-       Every color below is defined once here, then reused everywhere.
-       To change the look of the entire site, just edit these values.
-       Colors are in hex format (#RRGGBB). You can use a color picker
-       like https://htmlcolorcodes.com/ to find hex codes you like.
     */
     :root {
-      --bg-color: #151922;        /* main background - dark brown/black */
-      --bg-secondary: #241f1a;    /* slightly lighter background for cards/sections */
+      --bg-color: #0c0908;        /* main background - black */
+      --bg-secondary: #151922;    /* bluish background for cards/sections */
       --text-color: #e8e0d4;      /* main text color - warm off-white */
       --text-muted: #b3a89c;      /* dimmer text, used for secondary info */
       --accent-color: #c9a66b;    /* gold/brass accent - used for links, borders, highlights */
@@ -162,7 +152,7 @@
 
     .gallery img {
       width: 100%;
-      height: 180px;
+      height: 280px;
       object-fit: cover;   /* crops images to fill the box without distortion */
       border-radius: 4px;
       border: 1px solid var(--border-color);
@@ -248,10 +238,9 @@
     ====================================================================
     HERO SECTION
     ====================================================================
-    Replace "Your Name" and the tagline below with your own info.
   -->
   <header class="hero">
-    <h1>Your Name</h1>
+    <h1>Ryne Starnes</h1>
     <p>Physics & Astrophysics | Applied Mathematics | Florida State University</p>
   </header>
 
@@ -259,14 +248,10 @@
     ====================================================================
     ABOUT ME SECTION
     ====================================================================
-    Replace the placeholder image path and text with your own.
-    To add your photo:
-      1. Upload an image file (e.g., "profile.jpg") to your GitHub repo
-      2. Change src="profile.jpg" below to match your filename
   -->
   <section class="section" id="about">
     <h2>About Me</h2>
-    <img src="profile.jpg" alt="Your profile photo" class="profile-img">
+    <img src="profile.jpg" alt="My profile photo" class="profile-img">
     <p>
       I'm an undergraduate student pursuing a dual degree in Physics & Astrophysics
       and Applied & Computational Mathematics at Florida State University. I stay
@@ -283,14 +268,14 @@
       my life in Lawrenceville, GA and Frisco, TX. It wasn't until high school that I 
       decided that I wanted to study science in college, and it wasn't until I got to
       college that I decided to study physics, but it was the best decision of my life.
-      The research and studying I've done has felt so rewarding, and the people I've met
+      The research I've done has felt so rewarding, and the people I've met
       are incredibly inspiring.
     </p>
     <p style="margin-top: 1rem;">
       I haven't had much opportunity to, but I love seeing new places! I've only traveled 
       in the U.S., and my favorite cities so far are Atlanta, Knoxville, and Madison. 
-      I've also started to enjoyoutdoors activities a lot more recently, especially fishing 
-      and the beach. 
+      I've also started to enjoy outdoors activities a lot more recently, especially fishing 
+      and the beach.
     </p>
   </section>
 
@@ -298,15 +283,6 @@
     ====================================================================
     CV SECTION
     ====================================================================
-    Two options for displaying your CV:
-
-    OPTION 1 (recommended): Link to a downloadable PDF
-      1. Upload your CV as "cv.pdf" to your GitHub repo
-      2. The button below will let visitors download/view it
-
-    OPTION 2: Type your CV directly as HTML
-      - Uncomment and edit the example block below if you'd rather
-        have your CV content directly on the page instead of a PDF
   -->
   <section class="section" id="cv">
     <h2>Curriculum Vitae</h2>
@@ -322,10 +298,6 @@
     ====================================================================
     GALLERY SECTION
     ====================================================================
-    To add images:
-      1. Upload image files to your GitHub repo (e.g., "photo1.jpg")
-      2. Add an <img> line for each photo, following the pattern below
-      3. The grid automatically arranges them and resizes for mobile
   -->
   <section class="section" id="gallery">
     <h2>Gallery</h2>
@@ -341,14 +313,13 @@
     ====================================================================
     LINKS SECTION
     ====================================================================
-    Replace the href="..." URLs with your actual profile links.
   -->
   <section class="section" id="links">
     <h2>My Online Profiles</h2>
     <ul class="links-list">
-      <li><a href="https://github.com/yourusername" target="_blank">GitHub</a></li>
-      <li><a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a></li>
-      <!-- Add more links here, e.g. ORCID, Google Scholar, personal email -->
+      <li><a href="https://github.com/rynecs" target="_blank">GitHub</a></li>
+      <li><a href="https://linkedin.com/in/ryne-starnes" target="_blank">LinkedIn</a></li>
+      <li><a href="mailto:rcs22j@fsu.edu" target="_blank">Academic Email</a></li>
     </ul>
   </section>
 
